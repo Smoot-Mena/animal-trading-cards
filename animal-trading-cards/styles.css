@@ -1,0 +1,119 @@
+/*================
+ Global Settings 
+================*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 500px; */
+    display: flex;
+    
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.animalCard {
+    border-style: solid;
+    border-width: medium;
+    width: 300px;
+    padding: 10px;
+    margin: 5px 10px;
+    box-shadow: 5px 10px #999999;
+    border-radius: 5px;
+
+}
+
+.animalInfo {
+    text-align: left;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: thin;
+    padding: 0 10px;
+    border-radius: 5px;
+    
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.italicInfo {
+    font-style: italic;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/*=================
+ Specific Settings 
+=================*/
+
+.leopard {
+    border-color: forestgreen;
+    background-color: lightgreen;
+}
+
+.leopardTitle {
+    background-color: white;
+}
+
+.leopard .animalInfo{
+    background-color: white;
+}
+
+.hawk {
+    border-color: crimson;
+    background-color: lightcoral;
+}
+
+.hawkTitle {
+    background-color: white;
+}
+
+.hawk .animalInfo {
+    background-color: white;
+}
+
+.dolphin {
+    border-color: navy;
+    background-color: deepskyblue;
+}
+
+.dolphinTitle {
+    background-color: white;
+}
+
+.dolphin .animalInfo {
+    background-color: white;
+}
+
+.honeybadger {
+    border-color:orangered;
+    background-color: orange;
+}
+
+.honeybadgerTitle {
+    background-color: white;
+}
+
+.honeybadger .animalInfo {
+    background-color: white;
+}
+
+.picHoneybadger {
+    width: 300px;
+}
+
+
+
+/*================END OF FILE!================== */
